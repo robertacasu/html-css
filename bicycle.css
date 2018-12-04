@@ -1,0 +1,6 @@
+/* #primo { width: 500px; position: relative; top:100px; left: 100px; background-color: blueviolet; z-index=2}
+#secondo {
+     background-color: aquamarine; position: relative; z-index:3}
+p {font-family: Arial, Helvetica, sans-serif}
+#bo {float: left} */
+#float {width:500px; float:left}

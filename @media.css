@@ -1,0 +1,21 @@
+
+div#uno, div#due, div#tre { 
+    display: inline-block;
+    width: 32%;
+    height: 500px
+}
+div#uno {
+    background-color: brown
+}
+div#due {
+    background-color: blueviolet
+}
+div#tre {
+    background-color: red
+}
+@media only screen and (max-width: 600px) {
+    div#uno, div#due, div#tre {
+    display: block;
+    height: 200px
+    }
+}

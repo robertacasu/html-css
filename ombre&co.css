@@ -1,0 +1,29 @@
+html,body { height: 100%}
+body { background-color: beige}
+#container {
+width: 940px;
+margin: 0px auto;
+padding: 20px;
+border:4px double#000 ;
+background-color: #fff; 
+min-height: 100%;
+
+}
+#logo { width:150px; margin:10px auto 0px auto }
+ul {
+    width: 570px; 
+    padding: 15px; 
+    margin: 10px auto ; 
+    border-top:2px solid black; 
+    border-bottom: 2px solid black; 
+    text-align: center}
+li {
+    font-size: 14px; 
+    display: inline;
+    margin:0px 3px}
+#img {
+    width:600px;
+    margin:20px auto }
+a {color:black; text-transform: uppercase;text-decoration: none;padding:0px 18px}
+a:hover {color: blueviolet}
+p { text-align: center; padding: 10px}

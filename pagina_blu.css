@@ -1,0 +1,114 @@
+
+html, body, div, span, h1, h2, h3, h4, h5, h6, p, a, img, ul, li {
+    border:0; margin:0; padding:0
+    }
+a, a:hover {
+    text-decoration: none
+}
+body {
+    background-color: aliceblue;
+    color: rgb(58, 55, 55);
+    font-family: 'Roboto', sans-serif
+}
+nav {
+    background: rgb(79, 148, 148);
+    color: aliceblue;
+    text-align: center
+}
+@font-face {
+    font-family: 'Bebas';
+    src: url('Pagina_blu/BebasNeue-webfont.tff');
+}
+.inner ul { 
+    padding: 20px
+}
+#nav li {
+    display: inline;
+    padding: 20px 40px;
+}
+
+h1, h2, h3 {
+    font-family: 'Bebas', Arial, Helvetica, sans-serif;
+    color: rgb(69, 117, 101);
+}
+#img {
+    width: 281px; margin: 0 auto;
+   }
+.inner {
+    margin:0 auto
+}
+
+#foto2 {
+    padding: 20px 0px
+}
+.testo {
+    width: 260px; 
+    padding:10px 20px 20px 20px; 
+    float: left;
+    }
+#imgfloat {
+    float: left;
+}
+#colonna_sinistra {
+    width: 600px;
+    float:left
+}
+#colonna_destra {
+    width: 300px;
+    float:left
+}
+#testo3 li {
+    clear: both;
+    padding: 10px;
+    float:left
+}
+
+#elenco li {
+    list-style-type: none;
+    padding: 10px 0px
+}
+#footer {
+    background: rgb(167, 167, 167);
+    text-align: center;
+    color: black;
+    padding: 20px;
+    line-height: 50px;
+}
+
+@media only screen and (min-width: 1000px)  {
+    .inner{
+        width: 924px;
+        margin:0 auto
+    }
+}
+@media only screen and (max-width: 1000px) and (min-width: 600px) {
+    .inner{
+        width: 500px;
+        margin:0 auto;
+    }
+    #foto2 {width: 100%
+    }
+    #nav li {
+        padding: 20px 20px;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .inner{
+        width: 400px;
+        margin:0 auto;
+    }
+    #foto2 {
+        width: 100%
+    }
+    #nav li {
+        display: block;
+        padding: 20px 40px;
+    }
+    #footer {
+        width: 100%
+    }
+    #colonna_sinistra {
+        width: 400px
+    }
+}
+

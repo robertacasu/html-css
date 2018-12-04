@@ -1,0 +1,9 @@
+
+li{list-style-type: georgian}
+table {font-size: 20px; padding: 0px }
+
+thead.head tr th:first-child {border-top-left-radius: 5px}
+legend {font-style: italic }
+input [type="text"] : focus,
+input :hover {background-color: green; 
+ }

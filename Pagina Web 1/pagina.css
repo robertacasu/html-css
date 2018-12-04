@@ -1,0 +1,57 @@
+body {background: indianred }
+
+#container {
+    width:960px ; 
+    margin:0 auto; 
+    background: #fff }
+#header {
+    padding: 20px;
+    background: cadetblue;
+    color: white;
+    text-transform: uppercase }
+#nav li{
+    display: inline-block;
+    padding: 15px 20px
+}
+#nav {
+    width: 960px;
+    background: pink;
+    color:white;
+    text-align: center;
+    text-transform: uppercase}
+#nav ul {
+    margin:0 auto
+}
+.testo {
+    width: 280px; 
+    padding:20px; 
+    float: left}
+.fine {
+    clear: both
+}
+.content {; 
+    width: 620px;
+    padding: 20px;
+    float: left;
+}
+#sidebar
+{
+    float: left;
+    width: 260px;
+    padding:20px;;
+
+}
+h1{
+    margin: 0px
+}
+img {
+    float: left
+}
+#asperemm {
+    background: gray;
+    color: aliceblue;
+    padding: 20px;
+}
+
+
+
